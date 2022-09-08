@@ -1,0 +1,6 @@
+
+
+
+
+
+resultsContainer.innerHTML = "";
