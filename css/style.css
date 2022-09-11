@@ -5,9 +5,6 @@
     padding: 0px;
 }
 
-* {
-    box-sizing: border-box;
-}
 
 body {
     padding: 20px 40px;
@@ -23,7 +20,7 @@ body {
 form {
     padding: 2em;
     background: white;
-    border-radius: 1rem;
+    border-radius: 2rem;
 }
 
 input {
@@ -34,7 +31,7 @@ input {
 }
 
 button {
-    background: rgb(255, 255, 255);
+    background: rgb(215, 181, 181);
     border: none;
     width: 200px;
     padding: 1rem;

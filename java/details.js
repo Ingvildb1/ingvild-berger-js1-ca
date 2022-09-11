@@ -22,7 +22,7 @@ async function fetchDrinks() {
     const response = await fetch(url);
     const drinkDetails = await response.json();
 
-    //console.log(drinkDetails);  
+    console.log(drinkDetails);  
     
 
     // empty the string 
@@ -44,7 +44,7 @@ async function fetchDrinks() {
  
      } catch(error) {
         console.log(error);
-        //detailContainer.innerHTML = message("error", error);
+        detailContainer.innerHTML = message("error", error);
     }
 }
 
